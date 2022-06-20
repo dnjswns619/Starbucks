@@ -13,7 +13,14 @@ window.onload = function(){
     })
     submenu.addEventListener('mouseout',function(){
       submenu.classList.remove('active');
-  })
+    })
+
+    let trigger = document.querySelector('.trigger')
+    let nav = document.querySelector('.nav')
+    trigger.addEventListener('click', function(){
+      nav.classList.toggle("active")
+    })
+
     // slick-slider
     $('.slick_slider').slick({
         dots: true,
