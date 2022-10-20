@@ -17,8 +17,10 @@ window.onload = function(){
 
     let trigger = document.querySelector('.trigger')
     let nav = document.querySelector('.nav')
+    let body = document.querySelector('body')
     trigger.addEventListener('click', function(){
       nav.classList.toggle("active")
+      body.classList.toggle("active")
     })
 
     // slick-slider

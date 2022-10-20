@@ -1,0 +1,25 @@
+body {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+.mobile {
+  width: 650px;
+  height: 931px;
+  position: relative;
+}
+.mobile img {
+  width: inherit;
+  height: inherit;
+  display: block;
+  object-fit: cover;
+  object-position: top center;
+}
+.mobile iframe {
+  background-color: #fff;
+  width: 345px;
+  height: 610px;
+  position: absolute;
+  top: 105px;
+  left: 155px;
+}
